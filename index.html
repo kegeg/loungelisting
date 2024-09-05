@@ -13,9 +13,13 @@
             color: #fff;
         }
         .logo {
-            font-size: 24px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 2em;
             font-weight: bold;
             color: #e50914;
+            z-index: 3;
         }
         .hero {
             text-align: center;
@@ -42,7 +46,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+            background-color: rgba(0, 0, 0, 0.7); /* Adjust opacity as needed */
             z-index: 1;
         }
 
@@ -88,8 +92,8 @@
 </head>
 <body>
     <div class="hero">
+        <div class="logo">LoungeListing</div>
         <div class="hero-content">
-            <div class="logo">LoungeListing</div>
             <h1>Find your lounge access, worldwide.</h1>
             <p class="tagline">Find lounges anywhere. Easily and for free.</p>
             <div class="cta-form">
